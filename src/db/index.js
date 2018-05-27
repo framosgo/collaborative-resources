@@ -5,7 +5,7 @@ import { checkDatabase } from './setup'
 
 let connection = null
 
-export const setuptDatabase = () => (
+export const setupDatabase = () => (
   connect({ host, port })
     .then(conn => {
       console.info('Connecting to database ...!')
@@ -15,10 +15,7 @@ export const setuptDatabase = () => (
       console.info('Setting up database ...')
       return checkDatabase(connection)
     })
-    .then(result => {
-      console.log('Setting up sockets ...')
-      // TODO
-    })
+    .then(() => connection)
     .catch(error => {
       console.error('RethinkDB', new Error(error))
     })

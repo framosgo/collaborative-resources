@@ -1,21 +1,10 @@
-import http from 'http'
-import { setuptDatabase } from '../db'
-
-const server = http.createServer()
-
-const port = process.env.port || 3000
-const hostname = '0.0.0.0'
+import { setupDatabase } from '../db'
+import { setupSocketIO } from '../sockets'
 
 const start = () => {
-  setuptDatabase()
-    .then(() => {
-      console.info('Setting up Socket.io ...')
-    })
-    .then(() => {
-      console.info('Starting server ...')
-      server.listen(port, hostname, () => {
-        console.log('Magic things are happening on port ' + port)
-      })
+  setupDatabase()
+    .then(connection => {
+      setupSocketIO(connection)
     })
     .catch(e => {
       console.error(`Server Error ${e}...`)
