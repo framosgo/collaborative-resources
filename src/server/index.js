@@ -1,5 +1,5 @@
-import { setupDatabase } from '../db'
-import { setupSocketIO } from '../sockets'
+import { setupDatabase } from './db'
+import { setupSocketIO } from './sockets'
 
 const start = () => {
   setupDatabase()
