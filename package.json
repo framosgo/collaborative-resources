@@ -1,0 +1,38 @@
+{
+  "name": "collaborative-resources",
+  "version": "1.0.0",
+  "description": "Manage a list of taggeable elements in real time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "lint": "node node_modules/.bin/eslint src --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeimxx/collaborative-resources.git"
+  },
+  "keywords": [
+    "rethinkdb",
+    "socket.io"
+  ],
+  "author": "Fernando Ramos González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeimxx/collaborative-resources/issues"
+  },
+  "homepage": "https://github.com/jeimxx/collaborative-resources#readme",
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
