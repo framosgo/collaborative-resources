@@ -62,3 +62,6 @@ typings/
 
 # RethinkDB
 rethinkdb_data
+
+# Mac please
+.DS_Store

@@ -1,11 +1,16 @@
-import io from 'socket.io'
+import socketIO from 'socket.io'
+import http from 'http'
+import { PORT } from './config'
 
 import { connectionEvents } from './events'
-import { PORT } from './config'
 
 export const setupSocketIO = conectionDB => {
   console.info('Setting up Socket.io ...')
-  const server = io.listen(PORT)
+  const io = socketIO(http.createServer(), {
+    path: '/socket.io'
+  })
 
-  connectionEvents(conectionDB)(server)
+  io.listen(PORT)
+
+  connectionEvents(conectionDB)(io)
 }
