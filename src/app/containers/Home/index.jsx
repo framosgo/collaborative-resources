@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { connectContext } from '../../../base/context'
 
 import styles from './styles.css'
+import Neko from '../../components/Neko'
 
 export class Home extends Component {
   constructor (props) {
@@ -47,19 +48,21 @@ export class Home extends Component {
 
   render () {
     return (
-      <div className={styles.login}>
-        <div>
-          <img src={this.state.avatar} />
-        </div>
+      <div className={styles.loginContainer}>
+        <Neko />
         <div>
           <input
+            className={styles.loginInput}
             value={this.state.username}
             onChange={this.handleChange}
           />
-          <button onClick={() => this.props.actions.login(this.state.username)}>
-            Login
+          <button
+            className={styles.loginButton}
+            onClick={() => this.props.actions.login(this.state.username)}>
+            Ir
           </button>
         </div>
+
       </div>
     )
   }
