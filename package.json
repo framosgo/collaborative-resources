@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --host 0.0.0.0",
     "build": "webpack --mode production",
-    "start:prod": "node index"
+    "start:server": "node index"
   },
   "repository": {
     "type": "git",
