@@ -1,0 +1,230 @@
+[
+  {
+    "dni": "77978110Z",
+    "id": "4e13dc7a-e03b-4b31-86b4-6d135cbff921",
+    "lastModified": "Sun May 24 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 678293232,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      },
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      },
+      {
+        "color": "#FED430",
+        "id": "fo7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "Factura única"
+      },
+      {
+        "color": "#8CCA50",
+        "id": "c1f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "bono-100"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "cff6fc7a-c947-42eb-b42f-309ed33952f2",
+    "lastModified": "Sun May 25 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 628819392,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "f436b3f2-c643-4d75-a821-817d99895a4d",
+    "lastModified": "Sun May 27 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 954259150,
+    "tags": [
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "4e14dc7a-e03b-4b31-86b4-6d135cbff921",
+    "lastModified": "Sun May 24 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 678293232,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      },
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      },
+      {
+        "color": "#FED430",
+        "id": "fo7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "Factura única"
+      },
+      {
+        "color": "#8CCA50",
+        "id": "c1f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "bono-100"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "cff6fc5a-c947-42eb-b42f-309ed33952f2",
+    "lastModified": "Sun May 25 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 628819392,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "f466b3f2-c643-4d75-a821-817d99895a4d",
+    "lastModified": "Sun May 27 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 954259150,
+    "tags": [
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "4e13dc7a-e07b-4b31-86b4-6d135cbff921",
+    "lastModified": "Sun May 24 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 678293232,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      },
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      },
+      {
+        "color": "#FED430",
+        "id": "fo7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "Factura única"
+      },
+      {
+        "color": "#8CCA50",
+        "id": "c1f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "bono-100"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "cff6fc78-c947-42eb-b42f-309ed33952f2",
+    "lastModified": "Sun May 25 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 628819392,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "f436b3f2-c643-4235-a821-817d99895a4d",
+    "lastModified": "Sun May 27 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 954259150,
+    "tags": [
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "4e13dc9a-e03b-4b31-86b4-6d135cbff921",
+    "lastModified": "Sun May 24 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 678293232,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      },
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      },
+      {
+        "color": "#FED430",
+        "id": "fo7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "Factura única"
+      },
+      {
+        "color": "#8CCA50",
+        "id": "c1f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "bono-100"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "cff10c7a-c947-42eb-b42f-309ed33952f2",
+    "lastModified": "Sun May 25 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 628819392,
+    "tags": [
+      {
+        "color": "#D73954",
+        "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+        "name": "PREPAGO"
+      }
+    ]
+  },
+  {
+    "dni": "77978110Z",
+    "id": "f43113f2-c643-4d75-a821-817d99895a4d",
+    "lastModified": "Sun May 27 2018 21:57:25 GMT+00:00",
+    "modifiedBy": "kami-sama",
+    "msisdn": 954259150,
+    "tags": [
+      {
+        "color": "#FD9E31",
+        "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+        "name": "POSPAGO"
+      }
+    ]
+  }
+]

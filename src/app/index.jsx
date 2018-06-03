@@ -2,31 +2,27 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 // import io from 'socket.io-client'
 
-import { Provider } from '../base/context'
-import { store, createStore } from '../base/store'
-import Home from './containers/Home'
+import Login from './containers/Login'
 import Resources from './containers/Resources'
 
 import './styles'
 
 class App extends Component {
-  state = store
-
-  isLogged = () => (
-    this.state.Home.username.length > 0
-  )
+  state = {
+    username: ''
+  }
 
   componentDidMount () {
     // this.socket = io({path: '/socket.io'})
   }
 
+  login = username => {
+    this.setState({ username })
+  }
+
   render () {
-    const content = this.isLogged() ? <Resources /> : <Home />
-    return (
-      <Provider value={createStore(this)}>
-        { content }
-      </Provider>
-    )
+    const content = this.state.username ? <Resources /> : <Login onLogin={this.login} />
+    return content
   }
 }
 

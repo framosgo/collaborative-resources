@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.row > div {
+  display: flex;
+  padding: 5px;
+}
+
+.row > div:not(:last-child) {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags {
+  flex: 3;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.tags > div:last-child {
+  display: flex;
+  justify-content: center;
+  background-color: #6c7ae0;
+  height: 20px;
+  width: 20px;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}

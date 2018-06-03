@@ -1,0 +1,22 @@
+[
+  {
+    "color": "#D73954",
+    "id": "fa7b02e1-b31c-41dc-a54b-371475f9bc78",
+    "name": "PREPAGO"
+  },
+  {
+    "color": "#FD9E31",
+    "id": "c5f01396-ee7d-42a3-90f1-3b68adaae3c8",
+    "name": "POSPAGO"
+  },
+  {
+    "color": "#FED430",
+    "id": "fo7b02e1-b31c-41dc-a54b-371475f9bc78",
+    "name": "Factura única"
+  },
+  {
+    "color": "#8CCA50",
+    "id": "c1f01396-ee7d-42a3-90f1-3b68adaae3c8",
+    "name": "bono-100"
+  }
+]

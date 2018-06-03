@@ -1,0 +1,45 @@
+.filter {
+  display: flex;
+  border: 1px solid dimgrey;
+  padding: 8px;
+  border-radius: 20px;
+  width: 150px;
+}
+
+.icon {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0iIzY5Njk2OSIgZD0iTTIgMmgxM3YybC01IDV2N2wtMy0ydi01bC01LTV6Ii8+PHBhdGggZmlsbD0iIzY5Njk2OSIgZD0iTTIgMGgxM3YxaC0xM3YtMXoiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.filter > input {
+  border: 0px;
+  font-size: 12px;
+  outline: none;
+  padding-left: 5px;
+  width: 120px;
+}
+
+.tags {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+}
+
+.actions {
+  display: flex;
+  width: 148px;
+  justify-content: space-around;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+.actions > span:first-child {
+  cursor: pointer;
+}
+
+.actions > span:last-child {
+  cursor: pointer;
+}

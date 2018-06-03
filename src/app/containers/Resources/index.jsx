@@ -1,11 +1,26 @@
-import React from 'react'
-import { connectContext } from '../../../base/context'
+import React, { Component } from 'react'
 
-const Resources = ({ Home: { username } }) => (
-  <div>
-    <h1>Welcome!</h1>
-    <span>{`You are logged as ${username}`}</span>
-  </div>
-)
+import TagFilter from './components/TagFilter'
+import Searcher from './components/Searcher'
+import Table from './components/Table'
 
-export default connectContext(Resources)
+import resources from './resources.json'
+import tags from './tags.json'
+
+import styles from './styles'
+
+class Resources extends Component {
+  render () {
+    return (
+      <div className={styles.resourcesContainer}>
+        <div className={styles.filters}>
+          <TagFilter tags={tags} />
+          <Searcher />
+        </div>
+        <Table resources={resources} />
+      </div>
+    )
+  }
+}
+
+export default Resources

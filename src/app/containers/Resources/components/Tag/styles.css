@@ -1,0 +1,88 @@
+.tag {
+  color: #fff;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 3px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.tag > * {
+  padding: 2px;
+}
+
+.tagName {
+  margin-left: 10px;
+  display: flex;
+  border-radius: 0 5px 5px 0;
+  padding-right: 5px;
+}
+
+.tagName > span {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  width: 13px;
+  color: #708090;
+  cursor: pointer;
+}
+
+.color1 {
+  background-color: #D73954;
+}
+
+.color2 {
+  background-color: #FD9E31;
+}
+
+.color3 {
+  background-color: #FED430;
+}
+
+.color4 {
+  background-color: #8CCA50;
+}
+
+.color5 {
+  background-color: #4ECB8C;
+}
+
+.color6 {
+  background-color: #3ABFBE;
+}
+
+.color7 {
+  background-color: #1DACFC;
+}
+
+.color8{
+  background-color: #8F81E3;
+}
+
+.color9 {
+  background-color: #99AAB3;
+}
+
+.box {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 3px;
+  transform: rotate(45deg);
+  border-radius: 3px;
+}
+.arrowLeft {
+  position: absolute;
+  height: 20px;
+  width: 10px;
+  overflow: hidden;
+  padding: 0;
+}
